@@ -1,7 +1,6 @@
 # Created by Anjen at 11/7/2024
 Feature: Test to edit personal info
 
-
   Scenario: User can go to settings and edit the personal information
     Given Open signin page
     When Enter email leopie19@gmail.com

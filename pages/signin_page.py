@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 from pages.base_page import Page
+from webdriver_manager.firefox import GeckoDriverManager
 
 class SignInPage(Page):
     ENTER_NAME = (By.CSS_SELECTOR, "[wized='nameInputProfile']")
