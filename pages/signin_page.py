@@ -9,6 +9,7 @@ class SignInPage(Page):
     ENTER_EMAIL = (By.ID, 'email-2')
     SIGNIN_BTN = (By.CSS_SELECTOR, "[wized='loginButton']")
     SAVE_BTN = (By.CSS_SELECTOR, "[wized='saveButtonProfile']")
+    # SAVE_BTN = (By.CSS_SELECTOR, "[class='save-changes-button']")
     CLOSE_BTN = (By.XPATH, "//a[text()='Close']")
 
 

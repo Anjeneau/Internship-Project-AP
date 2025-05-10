@@ -7,8 +7,10 @@ from time import sleep
 
 
 class MainPage(Page):
-    SETTINGS_BTN = (By.CSS_SELECTOR, "[class='g-menu-text']")
-    EDIT_BTN = (By.XPATH, "//div[text()='Edit profile']")
+    # SETTINGS_BTN = (By.CSS_SELECTOR, "[class='g-menu-text']")
+    # EDIT_BTN = (By.XPATH, "//div[text()='Edit profile']")
+    SETTINGS_BTN = (By.CSS_SELECTOR, "[class='settings-link w-inline-block']")
+    EDIT_BTN = (By.CSS_SELECTOR, "[href='/profile-edit']")
 
     def click_settings_button(self):
         self.click(*self.SETTINGS_BTN)
